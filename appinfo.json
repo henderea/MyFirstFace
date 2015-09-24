@@ -1,0 +1,77 @@
+{
+    "appKeys": {
+        "KEY_BATTERY": 5,
+        "KEY_CHECK_PROGRESS": 4,
+        "KEY_CONDITIONS": 1,
+        "KEY_DISTANCE": 3,
+        "KEY_STEPS": 2,
+        "KEY_TEMPERATURE": 0
+    },
+    "capabilities": [
+        "location",
+        "configurable"
+    ],
+    "companyName": "henderea@gmail.com",
+    "longName": "MyFirstFace",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[0-9]",
+                "file": "fonts/light_sans_serif_7.ttf",
+                "name": "LIGHT_FONT_70",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "font"
+            },
+            {
+                "file": "fonts/light_sans_serif_7.ttf",
+                "name": "LIGHT_FONT_25",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "font"
+            },
+            {
+                "file": "fonts/light_sans_serif_7.ttf",
+                "name": "LIGHT_FONT_16",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "font"
+            },
+            {
+                "file": "fonts/light_sans_serif_7.ttf",
+                "name": "LIGHT_FONT_20",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "font"
+            },
+            {
+                "file": "fonts/light_sans_serif_7.ttf",
+                "name": "LIGHT_FONT_14",
+                "targetPlatforms": [
+                    "basalt"
+                ],
+                "type": "font"
+            },
+            {
+                "file": "images/bt-icon.png",
+                "name": "IMAGE_BT_ICON",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "MyFirstFace",
+    "targetPlatforms": [
+        "basalt"
+    ],
+    "uuid": "418e8075-8bdf-4374-ad47-c9ad7ef6fb0f",
+    "versionLabel": "1.0",
+    "watchapp": {
+        "watchface": true
+    }
+}
